@@ -1,4 +1,4 @@
-# Example of project with a common base
+# Example of a Rust project with multiple services using a common base
 
 The goal here was to build a common Rust library for multiple back-end Rust services without having ot compile and build all the base dependencies everytime a new service is built.
 
