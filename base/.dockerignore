@@ -1,0 +1,4 @@
+# Docker management files
+/.dockerignore
+/Dockerfile
+/foundations/target

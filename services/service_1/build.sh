@@ -1,0 +1,1 @@
+rustc src/main.rs -L dependency="../../base/foundations/target/debug/deps" --extern foundations="../../base/foundations/target/debug/libfoundations.rlib"

@@ -1,0 +1,11 @@
+[package]
+name = "service_1"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+name = "service_1"
+path = "src/main.rs"
+
+[dependencies]
+nalgebra = "0.16"

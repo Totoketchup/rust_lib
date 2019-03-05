@@ -1,0 +1,11 @@
+[package]
+name = "service_2"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+name = "service_2"
+path = "src/main.rs"
+
+[dependencies]
+rustfft = "3.0.0"
