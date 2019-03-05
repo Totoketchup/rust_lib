@@ -9,3 +9,4 @@ path = "src/main.rs"
 
 [dependencies]
 rustfft = "3.0.0"
+foundations = { path = "../../base/foundations/" }

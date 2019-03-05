@@ -9,3 +9,4 @@ path = "src/main.rs"
 
 [dependencies]
 nalgebra = "0.16"
+foundations = { path = "../../base/foundations/" }
