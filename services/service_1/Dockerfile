@@ -12,8 +12,8 @@ RUN cargo fetch
 COPY ./src ./src
 
 RUN rustc src/main.rs \
-    -L dependency="../../base/foundations/target/release/deps" \
-    --extern foundations="../../base/foundations/target/release/libfoundations.rlib" \
+    -L dependency=${DEPS_FOLDER} \
+    --extern foundations=${RLIB_FILE} \
     --out-dir='target/release' \
     --crate-name="service_1" \
     -C debuginfo=0 -C opt-level=3

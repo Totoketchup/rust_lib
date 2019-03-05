@@ -16,3 +16,6 @@ RUN cargo fetch
 COPY ./foundations/src ./src
 
 RUN cargo build --release
+
+ENV DEPS_FOLDER ${APP_DIR}/target/release/deps
+ENV RLIB_FILE ${APP_DIR}/target/release/libfoundations.rlib
